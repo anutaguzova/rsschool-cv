@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+    line-height: 140%;
+    font-family: "Verdana", "Arial", sans-serif;
+    background-color: #cfcbcd;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-size: 280%;
+    line-height: 100%;
+}
+
+h3 {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #703f6c;
+    text-align: left;
+}
+
+header {
+    margin-bottom: 35px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.title {
+    display: inline-block;
+    width: 100%;
+    max-width: 1024px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.contacts {
+    margin: 0;
+    font-style: normal;
+    font-size: 80%;
+    line-height: 160%;
+    white-space: pre-wrap;
+}
+
+.image {
+    --photo-size: 150px;
+    width: var(--photo-size);
+    height: var(--photo-size);
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+ul li {
+    margin-bottom: 20px;
+    list-style: square outside;
+}
+
+.skills {
+    display: grid;
+    /* justify-items: start; */
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    justify-items: start;
+}
+
+/* footer style start */
+.footer {}
+
+.social__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 20px 0;
+}
+
+.social__item {
+    margin-right: 27px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.social__icon {
+    display: block;
+    text-decoration: none;
+}
+
+.github {
+    background: url(./image/github.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+}
+
+.linkedin {
+    background: url(./image/linkedin.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+}
+
+.facebook {
+    background: url(./image/facebook.svg);
+    display: block;
+    text-indent: -9999px;
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+}
+
+
+@media (max-width: 1024px) {
+    header {
+        text-align: center;
+    }
+}
+
+@media (max-width: 585px) {
+    h1 {
+        font-size: 250%;
+        line-height: 100%;
+    }
+
+    .image {
+        width: calc(var(--photo-size)/1.2);
+        height: calc(var(--photo-size)/1.2);
+        margin-bottom: 18px;
+    }
+}
