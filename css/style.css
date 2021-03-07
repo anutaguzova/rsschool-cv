@@ -97,33 +97,9 @@ ul li {
     text-decoration: none;
 }
 
-.github {
-    background: url(/image/github.svg);
-    display: block;
-    text-indent: -9999px;
-    width: 24px;
-    height: 24px;
-    background-size: 24px 24px;
+.mail {
+    color: black;
 }
-
-.linkedin {
-    background: url(/image/linkedin.svg);
-    display: block;
-    text-indent: -9999px;
-    width: 24px;
-    height: 24px;
-    background-size: 24px 24px;
-}
-
-.facebook {
-    background: url(/image/facebook.svg);
-    display: block;
-    text-indent: -9999px;
-    width: 24px;
-    height: 24px;
-    background-size: 24px 24px;
-}
-
 
 @media (max-width: 1024px) {
     header {
