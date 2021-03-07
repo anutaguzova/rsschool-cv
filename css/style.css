@@ -11,6 +11,7 @@ h1 {
     margin: 0 0 20px 0;
     font-size: 280%;
     line-height: 100%;
+    text-align: center;
 }
 
 h3 {
@@ -71,7 +72,6 @@ ul li {
 }
 
 /* footer style start */
-.footer {}
 
 .social__list {
     display: flex;
@@ -79,6 +79,7 @@ ul li {
     justify-content: center;
     align-content: center;
     padding: 20px 0;
+    justify-items: center;
 }
 
 .social__item {
