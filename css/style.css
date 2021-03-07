@@ -97,7 +97,7 @@ ul li {
 }
 
 .github {
-    background: url(./image/github.svg);
+    background: url(/image/github.svg);
     display: block;
     text-indent: -9999px;
     width: 24px;
@@ -106,7 +106,7 @@ ul li {
 }
 
 .linkedin {
-    background: url(./image/linkedin.svg);
+    background: url(/image/linkedin.svg);
     display: block;
     text-indent: -9999px;
     width: 24px;
@@ -115,7 +115,7 @@ ul li {
 }
 
 .facebook {
-    background: url(./image/facebook.svg);
+    background: url(/image/facebook.svg);
     display: block;
     text-indent: -9999px;
     width: 24px;
