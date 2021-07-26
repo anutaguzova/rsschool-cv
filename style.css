@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700&display=swap&subset=cyrillic");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  line-height: 100%;
+  font-family: "Open Sans", "Tahoma", sans-serif;
+  text-align: center;
+  background-color: #f8f7f5;
+}
+
+header {
+  padding: 10px 0;
+}
+
+header > * {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.7em;
+  line-height: 60%;
+}
+
+header > *,
+header nav > a {
+  margin-right: 70px;
+}
+
+header > *:last-child,
+header nav > a:last-child {
+  margin-right: 0;
+}
+
+
+header a {
+  text-decoration: none;
+}
+
+.content-wrapper,
+main {
+  width: 100%;
+
+  background-color: white;
+}
+
+
+.content {
+  margin: 0 auto;
+  /* width: 80%; */
+  max-width: 1024px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  
+}
+
+h1,
+h2,
+header {
+  font-family: "Gilroy", "Tahoma", sans-serif;
+  color: indigo;
+}
+
+h2,
+h1 {
+  font-weight: bold;
+  color: indigo;
+
+}
+
+h1 {
+  margin: 0 0 20px 0; 
+  font-size: 330%;
+  line-height: 110%;
+}
+
+h2 {
+  margin-top: 60px;
+} 
+
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header p,
+.header p a,
+a {
+  color: black;
+}
+
+.abilities {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skills {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+.contacts li {
+    padding-right: 15px;
+}
+
+nav a {
+    padding-right: 15px;
+}
+
+
+@media (max-width: 1024px) {
+  .header {
+    text-align: center;
+  }
+}
+
+.avatar,
+.title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.avatar {
+  width: 130px;
+  height: 130px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+@media (max-width: 585px) {
+  header > *,
+  header nav > a {
+    margin-right: 30px;
+  }
+
+  h1 {
+    font-size: 220%;
+    line-height: 100%;
+    text-align: left;
+  }
+
+  main > * {
+    padding: 30px 20px 0;
+  }
+
+  .avatar {
+    width: calc(130px / 1.2);
+    height: calc(130px / 1.2);
+    margin-bottom: 18px;
+  }
+}
+
+.contacts {
+  margin: 0;
+  font-style: italic;
+  font-size: 80%;
+  line-height: 160%;
+  white-space: pre-wrap;
+}
+
+.contacts {
+  white-space: normal;
+}
+
+.aim {
+    font-weight: bold;
+}
